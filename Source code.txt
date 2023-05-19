@@ -15,7 +15,7 @@ void setup(){
     lcd.begin(16, 3);
   
     lcd.setCursor(1, 1);
-    lcd.print("Group 4 Presentation");
+    lcd.print("Loading ... ");
     delay(1000);
     lcd.clear();
     lcd.setCursor(3,0);
