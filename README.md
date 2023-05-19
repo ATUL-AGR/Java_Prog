@@ -1,13 +1,13 @@
 # Temperature Based Fan Speed Control
-
-INTRODUCTION
+<br><br>
+INTRODUCTION : <br>
 This circuit project is mainly used for varying the speed of a fan according to the temperature.
 Microprocessor forms the processing part. In the temperature controller circuit, there are two parts
 consisting of an LM 35 interface with ARDUINO UNO. LCD interface with ARDUINO. The hardware
 circuit of the temperature controller needs the programming.
 
-
-WORKING PRINCIPLE
+<br><br>
+WORKING PRINCIPLE : <br>
 This project consists of three sections. One senses the temperature by using a humidity and
 temperature sensor namely DHT11. The second section reads the dht11 sensor module’s output
 and extracts temperature value into a suitable number in Celsius scale and controls the fan
@@ -23,14 +23,14 @@ motor then motor speed also decreases. This concept is used in the project to co
 using PWM. (To understand more about PWM, check this circuit: 1 Watt LED Dimmer)The main
 game of PWM is digital pulse with some duty cycle and this duty cycle is responsible for controlling the speed or voltage.
 Suppose we have a pulse with duty cycle 50% that means it will give half of the voltage that we apply.
-
+<br>
 Formula for duty cycle given below:
 Duty Cycle= Ton/T
 Where T= total time or Ton+Toff
 And Ton= On time of pulse (means 1 )
 And Toff= Off time of pulse (means 0)
-
-COMPONENT DESCRIPTION
+<br><br>
+COMPONENT DESCRIPTION : <br>
 Dc Motor - A DC motor is any of a class of rotary electrical motors that converts direct current
 (DC) electrical energy into mechanical energy
 Arduino Uno R3 - The Arduino Uno R3 is a microcontroller board based on a removable,
@@ -45,11 +45,12 @@ Temperature Sensor [TMP36] - a low voltage, precision centigrade temperature sen
 provides a voltage output that is linearly proportional to the Celsius temperature.
 Relay SPDT - is a high quality Single Pole Double Throw Relay(SPDT). The Relay consists of a
 coil, 1 common terminal, 1 normally closed terminal, and one normally open terminal
-
+<br><br>
 CODE
+<br><br>
 RESULTS
-
-CONCLUSION
+<br><br>
+CONCLUSION <br>
 The temperature sensor was carefully chosen to gauge the room temperature. Moreover, the fan speed
 will increase automatically if the temperature room is increased. In conclusion, the system which was
 designed to work performed very well, for any temperature change and can be classified as automatic
